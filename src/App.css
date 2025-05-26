@@ -7,14 +7,17 @@
   pointer-events: none;
 }
 
+/* .Body{
+  background-image: url("/images/background2.jpeg");
+} */
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
-  background-color: rgb(112, 96, 4);
+  background: linear-gradient(135deg, rgb(60, 24, 237) 0%, rgb(229, 114, 7) 100%);
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -23,6 +26,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -44,8 +48,8 @@
 }
 
 footer{
-  background-color: black;
-  color: chocolate;
+  background-color: rgb(206, 90, 12);
+  color: rgb(17, 17, 17);
   
 }
 
@@ -53,6 +57,9 @@ footer{
   background-color: gold;
   color: black;
   text-decoration: underline;
+}
+body {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
 }
 
 

@@ -5,7 +5,7 @@ const Navbar = () => {
         <section className="row">
         <div className="col-md-12">
             <div className="navbar navbar-expand-md navbar-light bg-light">
-                <Link to="index.html" className="navbar-brand  " >Gemini Sparkles</Link >
+                <Link to="/" className="navbar-brand  " >Gemini Sparkles</Link >
 
                 <button className="navbar-toggler" data-bs-target="#prada" data-bs-toggle="collapse">
                     <span className="navbar-toggler-icon"></span>
@@ -18,6 +18,10 @@ const Navbar = () => {
                         <Link to="/signin" className="nav-link">Sign In</Link >
                         <Link to="/signup" className="nav-link">Sign Up</Link >
                         <Link to="/aboutus" className="nav-link">About Us</Link >
+                        <Link to="/chatbot" className="nav-link">My Chatbot</Link >
+                        <Link to="/cart" className="nav-link">Cart</Link >
+
+
 
 
                     </div>
